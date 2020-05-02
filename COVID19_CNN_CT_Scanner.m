@@ -4,7 +4,7 @@ clc;
 
 %% Load and Explore Image Data
 
-COVID19DatasetPath = fullfile('/', 'home', 'jlcadavid', 'Desktop', 'COVID-19 Project', 'CODE19 Data');
+COVID19DatasetPath = fullfile('/', 'home', 'jlcadavid', 'Desktop', 'CODE19 Data');
 imds = imageDatastore(COVID19DatasetPath, ...
     'IncludeSubfolders',true,'LabelSource','foldernames');
 
